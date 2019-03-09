@@ -45,7 +45,7 @@ form.addEventListener('submit',(event)=>{
 
   in case the search string is empty all images are shown, and all their data lightbox value is set as gallary once again
 *******************************************************************************/
-searchId.change(function(){
+searchId.on('keyup',function(){
   let searchValue = searchId.val().toLowerCase();
 
     for (let image of images) {
