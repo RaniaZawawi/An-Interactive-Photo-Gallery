@@ -77,6 +77,9 @@ input {
     width: 30%;
     margin: 10px;
   }
+  .lightbox .lb-image {
+    border-radius: 20px;
+  }
 
 }
 
@@ -89,5 +92,8 @@ input {
   .photo {
     width: 20%;
   }
-  
+  .lightbox .lb-image {
+    border-radius: 50px;
+  }
+
 }
